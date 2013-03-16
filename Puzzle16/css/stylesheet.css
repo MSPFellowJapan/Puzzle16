@@ -1,0 +1,28 @@
+﻿.panel {
+    position:absolute;
+    box-sizing:border-box;
+    border:1px solid black;
+    transition:all linear 0.2s;
+}
+.space{
+    opacity:0;
+}
+
+.finish .panel {
+    animation:finish 0.8s ease-in-out 1 forwards;
+}
+
+@-ms-keyframes finish {
+    0% {
+        border:1px solid black;
+        box-shadow:white 0 0 0;
+    }
+    50% {
+        border:1px solid white;
+        box-shadow:white 0 0 40px;
+    }
+    100% {
+        border:0px solid black;
+        box-shadow:white 0 0 0;
+    }
+}

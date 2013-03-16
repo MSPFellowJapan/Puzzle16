@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>Puzzle16</title>
+
+    <!-- WinJS 参照 -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Puzzle16 参照 -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/stylesheet.css" rel="stylesheet" />
+
+    <script src="/js/panel.js"></script>
+    <script src="/js/field.js"></script>
+    <script src="/js/game.js"></script>
+    <script src="/js/default.js"></script>
+    
+</head>
+<body>
+    <div id="gamefield">
+    </div>
+    <div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <button id="shuffleButton" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'shuffle', label:'Shuffle', icon:'shuffle'}" type="button"></button>
+        <button id="openButton" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'open', label:'Open', icon:'openlocal'}" type="button"></button>
+    </div>
+</body>
+</html>
